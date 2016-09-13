@@ -55,6 +55,16 @@ Priority | As a ... | I want to ... | So that I can...
 
 (For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
 
+#### Use case: Change person tag
+
+1. User requests to list persons
+2. AddressBook shows a list of persons
+3. User requests to change tag of a specific person in the list from "friends" to "buddies"
+4. AddressBook prompts confirmation from user to change tag.
+5. User confirms change.
+6. AddressBook changes tag of the specific person.
+Use case ends.
+
 #### Use case: Delete person
 
 **MSS**
